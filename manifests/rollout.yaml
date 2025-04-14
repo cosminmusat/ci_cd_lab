@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/cosminmusat/ci_cd_lab:latest
+          image: ghcr.io/cosminmusat/ci_cd_lab@sha256:8f4e514dfcb33a88212b64e5ed8d5d80bfaca0f02153c68066ac8aa686fe161e
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
